@@ -142,7 +142,7 @@ Mean Squared Error (MSE): MSE menghitung error dari rata-rata kuadrat selisih an
 
 Berdasarkan analisis menggunakan metrik evaluasi MSE dan R2, hasil proyek didapatkan sebagai berikut:
 
-![MSE table]()
-![MSE Grafik]()
+![MSE table](https://raw.githubusercontent.com/krisna31/air-bnb-rent-price-analytics/main/MSE-Table.jpg)
+![MSE Grafik](https://raw.githubusercontent.com/krisna31/air-bnb-rent-price-analytics/main/MSE-Grafik.jpg)
 
 - MSE yang rendah ditunjukkan pada algoritma random forest. namun masih terjadi overfitting dibuktikan dengan MSE rendah hanya terjadi pada data train dan masih high error di data test, namun jika dibandingkan dengan algoritma KKN dan boosting, error pada Random Forestlah yang paling kecil. Dengan demikian, kita dapat menyimpulkan bahwa model Random Forest yang dipilih menjadi model terbaik.
