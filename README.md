@@ -1,10 +1,11 @@
-# air-bnb-rent-price-analytics
-the purpose of this model is to predict the rent price of airbnb hotel based on the data
-# Laporan Proyek Machine Learning - Nama Anda
+# Laporan Proyek Machine Learning - Jelvin Krisna Putra 
 
 ## Domain Proyek
+Scope yang diambil merupakan scope **Ekonomi dan bisnis**. Seperti yang kita ketahui hotel sekarang sudah menjadi peluang bisnis yang menjanjikan, dan kebanyakan pengusaha hotel sudah menerapkan sistem informasi ke dalam layanan mereka, contohnya aplikasi untuk pemesanan hotel hingga check-in bisa melalui gadget pintar di tangan konsumen.
 
-Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Banyak yang menjadi pertimbangan konsumen dalam memilih merk hotel hingga tempat hotel, namun dalam dunia bisnis, pertimbangan terbesar pastilah jatuh ke pada harga sewa dari suatu hotel. dikutip dari
+
+dimana saya sebagai data science diminta air-bnb untuk membuat model machine learning untuk memprediksi harga sewa yang cocok terhadap suatu hotel air-bnb berdasarkan data-data yang ada seperti lokasi, nama, dan lainnya.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 
@@ -18,7 +19,7 @@ Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
+Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.#
 
 Bagian laporan ini mencakup:
 
