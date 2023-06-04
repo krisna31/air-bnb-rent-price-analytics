@@ -66,9 +66,9 @@ Variabel-variabel pada dataset New York City Airbnb Open Data adalah sebagai ber
 
 14. reviews_per_month: Jumlah ulasan per bulan
 
-15. calculated_host_listings_count: Jumlah listing yang dimiliki oleh host
+15. calculated_host_listings_count: Jumlah hotel yang dimiliki oleh host
 
-16. availability_365: Jumlah hari dalam setahun dimana listing tersedia untuk disewa
+16. availability_365: Jumlah hari dalam setahun dimana hotel tersedia untuk disewa
 
 Untuk memahami data dengan lebih baik, beberapa tahapan yang dapat dilakukan antara lain adalah:
 
