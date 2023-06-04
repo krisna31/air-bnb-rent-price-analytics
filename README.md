@@ -78,13 +78,31 @@ Untuk memahami data dengan lebih baik, beberapa tahapan yang dapat dilakukan ant
 
 ## Data Preparation
 
-Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+Beberapa teknik yang dapat diterapkan untuk membersihkan dan mempersiapkan data Airbnb New York City adalah sebagai berikut:
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
+1. Data Cleaning:
 
-- Menjelaskan proses data preparation yang dilakukan
+   - Menghapus kolom yang tidak relevan atau tidak digunakan dalam analisis, seperti 'id', 'host_id', 'name', 'host_name', dan 'last_review' yang tidak memberikan pengaruh dalam pemodelan harga sewa.
 
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+   - Menangani missing values: Melakukan input nilai pada review_per_month dengan nilai mean-nya dan penghapusan baris price missing values.
+
+2. Outlier Detection:
+
+   - Mengidentifikasi outlier pada variabel numerik seperti 'latitude', 'longitude', 'minimum_nights', 'number_of_reviews', 'reviews_per_month', 'calculated_host_listings_count', 'availability_365'
+
+   - Menangani outliers dengan Inter Quartile Range method.
+
+   - yang dilanjutkan dengan Univariate Analisis dan Multivariate Analysis
+
+3. Normalize Data:
+
+   - mulai dari encoding fitur kategori menjadi angka 1 0 dengan one hot encoding.
+
+   - Reduksi dimensi dengan Principal Component Analysis (PCA).
+
+   - Pembagian dataset dengan fungsi train_test_split dari library sklearn dengan skala 9:1.
+
+   - Melakukan normalisasi atau standarisasi pada variabel numerik dengan StandardScaler method.
 
 ## Modeling
 
