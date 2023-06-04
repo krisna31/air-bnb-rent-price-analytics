@@ -10,41 +10,27 @@ sehingga dalam project kali ini saya sebagai data science diminta air-bnb untuk 
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.#
-
-Bagian laporan ini mencakup:
-
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
+Adapun permasalahan yang dialami oleh air-bnb adalah sebagai berikut:
 
-- Pernyataan Masalah 1
+1. Rumitnya menentukan harga sewa yang optimal yang sesuai dengan data-data yang ada
 
-- Pernyataan Masalah 2
+2. Pasar penyewaan Airbnb di NYC sangat kompetitif, karena setiap pesaing ingin mendapatkan pelanggan mereka masing-masing
 
-- Pernyataan Masalah n
+3. Meningkatkan pendapatan perusahaan agar bisa bersaing untuk jangka waktu yang panjang
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
+Dari permasalahan di atas dapat diketahui tujuan dari proyek ini adalah:
 
-- Jawaban pernyataan masalah 1
+1. Menentukan harga yang optimal pada suatu hotel berdasarkan data-data lampau yang tersedia dari perusahaan
 
-- Jawaban pernyataan masalah 2
+2. Menentukan harga yang sesuai dan tepat agar tidak tersaingi oleh kompetitor yang lain
 
-- Jawaban pernyataan masalah n
+3. Memajukan dan mempertahankan perusahaan agar tetap bisa berdiri kokoh dan tahan lama
 
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+Beberapa solusi yang bisa diterapkan untuk melatih model bisa dengan menggunakan lebih dari satu algoritma seeprti, K Nearest Neighbors, Boosting Algorithm, dan Random Forest dan menentukan algoritma mana yang paling akurat dan terbaik untuk menentukan harga sewa, serta mengukur nilai atau tingkat akurasi model menggunakan metrik Mean Square Root
 
 ## Data Understanding
 
