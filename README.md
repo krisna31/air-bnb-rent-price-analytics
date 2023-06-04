@@ -106,15 +106,33 @@ Beberapa teknik yang dapat diterapkan untuk membersihkan dan mempersiapkan data 
 
 ## Modeling
 
-Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
+Pada tahap ini, kita akan menggunakan tiga algoritma berbeda, yaitu K-Nearest Neighbors (KNN), Random Forest, dan Boosting Algorithm.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
+1. K-Nearest Neighbors (KNN):
 
-- Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
+   - Algoritma yang berbasis pada jarak antara data dimana akan mencari K tetangga terdekat dari suatu data baru dan memprediksi nilai target berdasarkan kedekatan tetangga.
 
-- Jika menggunakan satu algoritma pada solution statement, lakukan proses improvement terhadap model dengan hyperparameter tuning. **Jelaskan proses improvement yang dilakukan**.
+   - (+) KNN mudah dipahami dan dapat digunakan untuk masalah regresi.
 
-- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **Jelaskan mengapa memilih model tersebut sebagai model terbaik**.
+   - (-) pemilihan nilai K yang tepat menjadi penting dalam performa algoritma ini.
+
+2. Random Forest:
+
+   - Algoritma ensemble yang terdiri dari banyak decision tree sehingga membentuk hutan (forest) dimana setiap pohon dipelajari pada data acak dan kemudian dicari rata²nya atau menggunakan konsep bagging.
+
+   - (+) RF mampu cenderung lebih cepat daripada Boosting karena RF berkonsep bagging sehingga jalannya paralel.
+
+   - (-) Random Forest dapat memakan waktu yang cukup lama dalam proses pelatihan pada dataset yang sangat besar.
+
+3. Boosting Algorithm (misalnya Gradient Boosting, AdaBoost):
+
+   - Algoritma yang membangun model berurutan secara adaptif dengan bentuk seperti barisan.
+
+   - (+) memiliki performa yang tinggi dan mampu menangani data yang rumit. Algoritma ini dapat membantu mengurangi bias dan varian dalam model.
+
+   - (-) Proses pelatihan Boosting Algorithm cenderung lebih lama karna menggunakan konsep boosting dimana dieksekusi secara iteratif kebalik dari bagging di RF.
+
+Dan untuk model terbaik jika tidak dilihat dari metriknya adalah model Random Forest yang dipilih karena karakteristik data yang tidak berkaitan satu sama lain tidak seperti harga emas atau berlian pada data kali ini lebih ke seperti pohon keputusan untuk karakteristik datanya yang selanjutnya baru kita masuk ke evaluasi metrik.
 
 ## Evaluation
 
