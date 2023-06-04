@@ -34,21 +34,47 @@ Beberapa solusi yang bisa diterapkan untuk melatih model bisa dengan menggunakan
 
 ## Data Understanding
 
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
+Dataset yang digunakan dalam proyek ini adalah New York City Airbnb Open Data. Dataset ini berisi informasi tentang listing Airbnb di New York City. Dataset ini dapat diunduh melalui platform Kaggle melalui tautan berikut: [New York City Airbnb Open Data on Kaggle](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
 
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
+Variabel-variabel pada dataset New York City Airbnb Open Data adalah sebagai berikut:
 
-### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
+1. id: ID unik untuk setiap record
 
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
+2. name: Nama hotel
 
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
+3. host_id: ID unik untuk setiap host Airbnb
 
-- dst
+4. host_name: Nama host Airbnb
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
+5. neighbourhood_group: Kelompok/neighbourhood geografis di New York City (misalnya Manhattan, Brooklyn, dll.)
 
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
+6. neighbourhood: Nama lingkungan/neighbourhood di New York City
+
+7. latitude: Koordinat lintang dari lokasi hotel
+
+8. longitude: Koordinat bujur dari lokasi hotel
+
+9. room_type: Tipe kamar (misalnya "Entire home/apt", "Private room", "Shared room")
+
+10. price: Harga sewa per malam dalam dolar AS
+
+11. minimum_nights: Jumlah malam minimum yang harus dipesan
+
+12. number_of_reviews: Jumlah ulasan yang diberikan oleh tamu sebelumnya
+
+13. last_review: Tanggal ulasan terakhir
+
+14. reviews_per_month: Jumlah ulasan per bulan
+
+15. calculated_host_listings_count: Jumlah listing yang dimiliki oleh host
+
+16. availability_365: Jumlah hari dalam setahun dimana listing tersedia untuk disewa
+
+Untuk memahami data dengan lebih baik, beberapa tahapan yang dapat dilakukan antara lain adalah:
+
+1. Menggunakan visualisasi data seperti histogram, scatter plot, atau box plot untuk mendapatkan distribusi data dan adanya data outlier.
+
+2. Menggunakan EDA untuk menganalisis korelasi antara harga sewa dengan atribut lainnya atau distribusi harga sewa berdasarkan tipe kamar atau lingkungan geografis.
 
 ## Data Preparation
 
