@@ -3,21 +3,10 @@
 ## Domain Proyek
 Scope yang diambil merupakan scope **Ekonomi dan bisnis**. Seperti yang kita ketahui hotel sekarang sudah menjadi peluang bisnis yang menjanjikan, dan kebanyakan pengusaha hotel sudah menerapkan sistem informasi ke dalam layanan mereka, contohnya aplikasi untuk pemesanan hotel hingga check-in bisa melalui gadget pintar di tangan konsumen.
 
-Banyak yang menjadi pertimbangan konsumen dalam memilih merk hotel hingga tempat hotel, namun dalam dunia bisnis, pertimbangan terbesar pastilah jatuh ke pada harga sewa dari suatu hotel. dikutip dari Tjiptono dan Chandra (dalam [Pengaruh Harga Dan Fasilitas Terhadap Keputusan Menginap Tamu Di Hotel Best Western Premier The Hive Jakarta](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=pengaruh+harga+sewa+hotel&oq=#d=gs_qabs&t=1685846684825&u=%23p%3DmEx_4ez85jYJ)) dikatakan bahwa ...ada segmen pembeli yang sangat sensitif terhadap faktor harga (menjadikan harga 
-sebagai satu-satunya pertimbangan 
-membeli produk) dan ada pula yang tidak.
+Banyak yang menjadi pertimbangan konsumen dalam memilih merk hotel hingga tempat hotel, namun dalam dunia bisnis, pertimbangan terbesar pastilah jatuh ke pada harga sewa dari suatu hotel. dikutip dari Tjiptono dan Chandra (dalam [Pengaruh Harga Dan Fasilitas Terhadap Keputusan Menginap Tamu Di Hotel Best Western Premier The Hive Jakarta](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=pengaruh+harga+sewa+hotel&oq=#d=gs_qabs&t=1685846684825&u=%23p%3DmEx_4ez85jYJ)) dikatakan bahwa ...ada segmen pembeli yang sangat sensitif terhadap faktor harga (menjadikan harga sebagai satu-satunya pertimbangan membeli produk) dan ada pula yang tidak.
 
 sehingga dalam project kali ini saya sebagai data science diminta air-bnb untuk membuat model machine learning untuk memprediksi harga sewa yang cocok terhadap suatu hotel air-bnb berdasarkan data-data yang ada seperti lokasi, nama, dan lainnya.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-
-  
-
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
 
 ## Business Understanding
 
