@@ -136,24 +136,13 @@ Dan untuk model terbaik jika tidak dilihat dari metriknya adalah model Random Fo
 
 ## Evaluation
 
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
+Metrik evaluasi yang akan digunakan untuk menganalisis kinerja model dalam memprediksi harga sewa Airbnb di New York City adalah Mean Squared Error (MSE). Metrik ini sesuai untuk masalah regresi linier.
 
-Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
+Mean Squared Error (MSE): MSE menghitung error dari rata-rata kuadrat selisih antara nilai prediksi dan nilai sebenarnya. Sederhanyanya semakin rendah MSE, semakin baik performa model.
 
-- Penjelasan mengenai metrik yang digunakan
+Berdasarkan analisis menggunakan metrik evaluasi MSE dan R2, hasil proyek didapatkan sebagai berikut:
 
-- Menjelaskan hasil proyek berdasarkan metrik evaluasi
+![MSE table]()
+![MSE Grafik]()
 
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
-
-**---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+- MSE yang rendah ditunjukkan pada algoritma random forest. namun masih terjadi overfitting dibuktikan dengan MSE rendah hanya terjadi pada data train dan masih high error di data test, namun jika dibandingkan dengan algoritma KKN dan boosting, error pada Random Forestlah yang paling kecil. Dengan demikian, kita dapat menyimpulkan bahwa model Random Forest yang dipilih menjadi model terbaik.
