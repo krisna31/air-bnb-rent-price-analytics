@@ -83,38 +83,31 @@ Tabel 1. Hasil dari pengecekan nilai NaN pada semua kolom
 3. Outlier Detection:
 
 ![Outlier](https://raw.githubusercontent.com/krisna31/air-bnb-rent-price-analytics/main/images/1-outlier.png)
-
 Gambar 1. *boxplot minimum nights*
    - Mengidentifikasi outlier pada variabel numerik seperti latitude, longitude, hingga minimum nights dengan menggunakan visualisasi data boxplot dari library *seaborn* bisa dilihat di gambar 1
    - Outliers dihapus dengan menggunakan metode IQR (Interquartile Range), dimana kita harus ?menghitung rentang IQR dengan mengurangi Q1 dari Q3, yaitu IQR = Q3 - Q1, Q3 merupakan quartile ketiga yang didapatkan dari fungsi _quartile(0.75)_ dan 0.25 untuk Q1
 
 ![2. Histogram](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/2-histogram.png)
-
 Gambar 2. *Neighborhood Group Histogram*
    - Selanjutnya kita masuk ke Univariate Analisis dimana data yang dianalisa adalah data-data kategorical seperti *neighborhood_group*, *neighborhood*, dan *room_type* dimana mendapatkan hasil untuk hotel di wilayah *Brooklyn and Manhattan* adalah hotel dengan biaya sewa termahal diantara 4 tempat bisa dilihat pada gambar 2
 
 ![3. Neighborhood ](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/3-neighbourhood.png)
-
 Gambar 3. *Neighborhood*
    - Untuk kolom *neighborhood* dibuang karena jika kita lakukan proses *one hot encoding* pada kolom ini maka akan menghasilkan terlalu banyak kolom baru yang akan berpengaruh ke hasil model bisa dilihat di gambar 3 atau 4.
 
 ![4. catplot ](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/4hh.png)
-
 Gambar 4. *Catplot*
    - Lalu ke Multivariate Analysis dimana ada kata multi berarti kita akan menganalisa banyak varian data yang pada kasus kali ini kita menganalisa data-data numerikal mulai dari *longitude* hingga ke *availability 365* menggunakan *library seaborn* dan *pairplot* serta *correlation matrix with heatmap*, dimana disimpulkan bahwa kesemua data memiliki penyebaran data yang serupa satu sama lain sehingga untuk data *numerikal* tidak ada yang di buang bisa dilihat untuk gambar 5 dan 6.
 
 ![6 heatmap](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/6-heatmap.png)
-
 Gambar 5. *Heatmap Correlation Matrix*
 
 ![pairplot](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/5-spread.jpg)
-
 Gambar 6. *Pairplot*
 4. Normalisasi Data:
    - Menggunakan konsep *one hot encoding* untuk mengubah kolom kategorical menjadi numerical dimana jika ada kolom review dengan nilai positif dan negatif maka akan menghasilkan 2 kolom baru dengan nama kolom positif dan negatif dimana nilainya akan bernilai 1 atau 0 sebagai representasi dari nilai pada saat masih dalam 1 kolom.
 
 ![7](https://github.com/krisna31/air-bnb-rent-price-analytics/raw/main/images/7.png)
-
 Gambar 7. *Longitude and latitude*
    - Karena tidak ada *feature* yang sangat mempengaruhi harga lihat gambar 7, maka tidak dilakukan Reduksi dimensi dengan Principal Component Analysis (PCA).
    - Pembagian dataset dengan fungsi train_test_split dari library sklearn dengan skala 80:10 dikarenakan jumlah data yang tidak terlalu banyak ada total 27764 data bersih yang tersedia dimana 80%-nya adalah 22211 dan 20%-nya ada 5553
