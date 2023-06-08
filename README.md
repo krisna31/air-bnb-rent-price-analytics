@@ -12,7 +12,7 @@ Pentingnya harga sewa dalam loyalitas konsumen dan kepuasan pelanggan terkadang 
 diperhatikan perusahaan karena pelanggan merupakan alasan mengapa suatu perusahaan 
 eksis." [[3]](https://www.journal.stieamkop.ac.id/index.php/yume/article/view/3036) karena dengan harga sewa yang tepat akan ada banyak konsumen yang menginap di hotel _Airbnb_ yang akan meningkatkan pendapatan dari _Airbnb_ itu sendiri
 
-Oleh karena itu dalam project kali ini saya sebagai _data science_ diminta oleh perusahaan _Airbnb_ untuk membuat _model machine learning_ yang mampu memprediksi harga sewa yang cocok terhadap suatu hotel airbnb berdasarkan data-data yang ada seperti lokasi, nama, dan data lainnya.
+Oleh karena itu dalam project kali ini **bayangkan** saya sebagai _data science_ diminta oleh perusahaan _Airbnb_ untuk membuat _model machine learning_ yang mampu memprediksi harga sewa yang cocok terhadap suatu hotel airbnb berdasarkan data-data yang ada seperti lokasi, nama, dan data lainnya.
 
 ## Business Understanding
 
